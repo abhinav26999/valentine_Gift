@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+    <defs>
+        <linearGradient id="heartGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#fb7185"/>
+            <stop offset="100%" stop-color="#ec4899"/>
+        </linearGradient>
+    </defs>
+
+    <!-- Heart -->
+    <path
+            d="M50 82
+       C20 60, 8 42, 20 28
+       C30 16, 45 22, 50 32
+       C55 22, 70 16, 80 28
+       C92 42, 80 60, 50 82Z"
+            fill="url(#heartGradient)"
+    />
+
+    <!-- Sparkle -->
+    <path
+            d="M72 18
+       l2 6
+       6 2
+       -6 2
+       -2 6
+       -2 -6
+       -6 -2
+       6 -2Z"
+            fill="#ffffff"
+            opacity="0.9"
+    />
+</svg>
